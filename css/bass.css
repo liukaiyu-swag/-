@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:"SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-size: 16px;
+	list-style:none;
+}
+/* 去掉a标签的下划线 */
+a{
+	text-decoration: none;
+}
+body{
+	background: #fff ;
+}
+img{
+	border: none;
+}
+i{
+  font-style:normal;
+}

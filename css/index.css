@@ -1,0 +1,372 @@
+@import url("bass.css");
+.top_nav{
+	position: absolute;
+    z-index: 9999;
+    width: 90%;
+    top: 50px;
+    left: 5%;
+    right: 5%;
+}
+.top_nav h1{
+	float: left;
+}
+.top_nav ul{
+	float: right;
+}
+.top_nav ul li{
+	float: left;
+    width: 110px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.top_nav ul li a{
+	color: #fff;
+    font-weight: bold;
+}
+.top_nav ul li:first-child a{
+	color: red;
+}
+.top_nav ul li:hover a{
+	color: red;
+}
+.top_main{
+	width: 100%;
+	height: 700px;
+	position: relative;
+}
+.banner_img{
+	width: 100%;
+	height: 700px;
+	position: relative;
+}
+.banner_img li{
+	width: 100%;
+	height: 700px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 800;
+	opacity: 0;
+	transition: all 1s;
+}
+.banner_img li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.banner_img li.active{
+	z-index: 900;
+	opacity: 1;
+}
+.banner_img li:first-child{
+	background: url(../images/banner-3.jpg) no-repeat center;
+}
+.banner_img li:nth-child(2){
+	background: url(../images/banner-2.jpg) no-repeat center;
+}
+.banner_img li:nth-child(3){
+	background: url(../images/banner-1.jpg) no-repeat center;
+}
+.banner_img li:last-child{
+	background: url(../images/banner-4.jpg) no-repeat center;
+}
+.banner_pagination{
+	position: absolute;
+	left: 51%;
+    top: 662px;
+    z-index: 9900;
+    padding: 5px 0 5px 0;
+    margin: 0;
+}
+.banner_pagination li{
+	display: block;
+    list-style: none;
+    width: 15px;
+    height: 12px;
+    float: left;
+    margin-left: 3px;
+    background: #ebebeb;
+    cursor: pointer;
+}
+.banner_pagination li.active{
+	background: #4d4d4d;
+}
+.index_content{
+	width: 100%;
+    position: relative;
+}
+.indexcon_back{
+	width: 50%;
+    background: #e20040;
+    padding: 130px 0;
+}
+.indexcon_con{
+	position: absolute;
+    z-index: 999;
+    top: 50px;
+    left: 3%;
+    right: 3%;
+}
+.indexcon_con h2{
+	float: left;
+    margin-left: 10%;
+    display: inline;
+}
+.indexcon_right{
+	width: 48%;
+	padding-left: 2%;
+	float: right;
+    text-align: center;
+}
+.indexcon_right h3{
+	font-size: 25px;
+    line-height: 36px;
+    color: #e20040;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.indexcon_right span{
+	line-height: 28px;
+    font-size: 14px;
+    color: #888;
+}
+.main_zuopin{
+	width: 100%;
+    background: #f6f6f6;
+    padding: 35px 0;
+    height: auto;
+    overflow: hidden;
+}
+.zuoping_title{
+	text-align: center;
+    width: 100%;
+    padding-bottom: 35px;
+}
+.zuoping_title h3{
+	font-size: 28px;
+    color: #e20040;
+}
+.zuoping_title span{
+	font-size: 16px;
+    color: #888;
+    line-height: 28px;
+}
+.zuoping_title p{
+	line-height: 28px;
+    font-size: 14px;
+}
+.js_div{
+	width: 98%;
+    padding: 0 3%;
+}
+.zuoping_main{
+	margin-left: 15px;
+	overflow: hidden;
+}
+.zuoping_main li{
+	float: left;
+    margin-bottom: 35px;
+    display: inline;
+    margin-right: 15px;
+    width: 23%;
+    overflow: hidden;
+    position: relative;
+}
+.zuoping_main li a{
+	display: block;
+}
+/*.zuoping_main li a:hover .hot_into{
+	transform: translateY(-100%);
+}*/
+.zuoping_main li a img{
+	display: block;
+    position: relative;
+    width: 100%;
+}
+.zuoping_main li a div{
+	position: absolute;
+	z-index: 999;
+    background: url(../images/case-bg.png);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.hot_into{
+	display: block;
+    left: 0%;
+    top: 100%;
+    transition: all .5s ease;
+}
+.hot_into h2{
+	font-size: 20px;
+    margin-top: 26%;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+}
+.hot_into font{
+	font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hot_into p{
+	background: url(../images/case-more.png) no-repeat;
+    width: 41px;
+    height: 41px;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+.zuoping_more{
+	text-align: center;
+    font-size: 16px;
+    padding-top: 0%;
+    height: 20px;
+}
+.zuoping_more a{
+	text-decoration: none;
+    background: url(../images/case-jt.png) no-repeat right center;
+    padding-right: 15px;
+    color: #555;
+}
+.zuoping_more a:hover{
+	color: red;
+}
+.index_yewu{
+	padding: 55px 0;
+    height: auto;
+    overflow: hidden;
+}
+.case_title{
+	text-align: center;
+    width: 100%;
+    padding-bottom: 35px;
+}
+.case_title h3{
+	font-size: 28px;
+    color: #e20040;
+}
+.case_title span{
+	font-size: 16px;
+    color: #888;
+    line-height: 28px;
+}
+.case_title p{
+	line-height: 28px;
+    font-size: 14px;
+}
+.case_title ul{
+	width: 1200px;
+    margin: 0 auto;
+    padding-left: 12%;
+    padding-top: 25px;
+}
+.case_title ul li{
+	float: left;
+    width: 160px;
+    text-align: center;
+    margin-right: 5%;
+}
+.case_title ul li a{
+    margin-left: 50px;
+    width: 52px;
+    height: 43px;
+    text-align: center;
+    display: block;
+}
+.case_title ul li a.c1{
+	background: url(../images/computer-01.png) no-repeat center top;
+}
+.case_title ul li a.c1:hover{
+	background: url(../images/computer-02.png) no-repeat center top;
+}
+.case_title ul li a.c2{
+	background: url(../images/iphone-1.png) no-repeat center top;
+}
+.case_title ul li a.c2:hover{
+	background: url(../images/iphone-2.png) no-repeat center top;
+}
+.case_title ul li a.c3{
+	background: url(../images/index-icon1.png) no-repeat center top;
+}
+.case_title ul li a.c3:hover{
+	background: url(../images/index-icon2.png) no-repeat center top;
+}
+.case_title ul li a.c4{
+	background: url(../images/index-icon3.png) no-repeat center top;
+}
+.case_title ul li a.c4:hover{
+	background: url(../images/index-icon4.png) no-repeat center top;
+}
+.case_title ul li a.c5{
+	background: url(../images/index-icon5.png) no-repeat center top;
+}
+.case_title ul li a.c5:hover{
+	background: url(../images/index-icon6.png) no-repeat center top;
+}
+.case_title ul li h3{
+	font-size: 16px;
+    color: #888;
+    padding-top: 5px;
+}
+.case_title ul li font{
+	font-size: 12px;
+    color: #888;
+}
+.bottom{
+	width: 100%;
+    background: #888888;
+    padding: 30px 0;
+    height: auto;
+    overflow: hidden;
+}
+.Bottom{
+	width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.Bottom span a{
+	background: url(../images/bottom-jt.png) no-repeat center top;
+    width: 57px;
+    height: 29px;
+    display: block;
+    margin-left: 260px;
+    text-align: center;
+}
+.bootom_link{
+	margin: 35px 0 50px 220px;
+    padding-bottom: 15px;
+}
+.bootom_link ul li{
+	float: left;
+    margin-right: 20px;
+    display: inline;
+    text-align: center;
+}
+.bootom_link ul li a{
+    width: 25px;
+    height: 21px;
+    display: block;
+}
+.bootom_link ul li a.b1{
+	background: url(../images/sina-icon1.png) no-repeat;
+}
+.bootom_link ul li a.b1:hover{
+	background: url(../images/sina-icon2.png) no-repeat;
+}
+.bootom_link ul li a.b2{
+	background: url(../images/weixin-icon1.png) no-repeat;
+}
+.bootom_link ul li a.b2:hover{
+	background: url(../images/weixin-icon2.png) no-repeat;
+}
+.bootom_link ul li a.b3{
+	background: url(../images/qq-icon1.png) no-repeat;
+}
+.bootom_link ul li a.b3:hover{
+	background: url(../images/qq-icon2.png) no-repeat;
+}
+.Bottom p{
+	color: #999;
+}
