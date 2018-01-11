@@ -40,21 +40,28 @@
 	let js_a=document.querySelector(".zuoping_main li a")
 	let hot_into=document.querySelector(".hot_into")
 	js_a.onmousemove=function(e){
-		let w = js_a.offsetWidth; 
-		let h = js_a.offsetHeight; 
-		let x = (e.clientX - js_a.offsetLeft - (w / 2)) * (w > h ? (h / w) : 1); 
-		let y = (e.clientY - js_a.offsetTop - (h / 2)) * (h > w ? (w / h) : 1); 
-		var direction = Math.round((((Math.atan2(y, x) * (180 / Math.PI)) + 180) / 90) + 3) % 4;
-		console.log(direction)
-	
-//		if(direction===2){
-//			hot_into.style.top="0%"
-//		}
-		switch(direction){
-			case 0:
-				js_a.onmousemove=function(){
-					hot_into.style.top="0"
-				}
-		}
+//		let w = js_a.offsetWidth; 
+//		let h = js_a.offsetHeight; 
+//		let x = (e.clientX - js_a.offsetLeft - (w / 2)) * (w > h ? (h / w) : 1); 
+//		let y = (e.clientY - js_a.offsetTop - (h / 2)) * (h > w ? (w / h) : 1); 
+//		var direction = Math.round((((Math.atan2(y, x) * (180 / Math.PI)) + 180) / 90) + 3) % 4;
+//		console.log(direction)
 	}
+}
+{
+    let totop=document.querySelector(".bottom-jt");
+    console.log(".bottom-jt")
+    totop.onclick=function () {
+        let st=document.documentElement.scrollTop;
+        console.log(st)
+        let speed=st*30/500;
+        let t=setInterval(function () {
+            st-=speed;
+            if(st<=0){
+                st=0;
+                clearInterval(t);
+            }
+            document.documentElement.scrollTop=st;
+        },30)
+    };
 }

@@ -326,13 +326,14 @@
     margin: 0 auto;
     text-align: center;
 }
-.Bottom span a{
+.bottom-jt{
 	background: url(../images/bottom-jt.png) no-repeat center top;
     width: 57px;
     height: 29px;
     display: block;
     margin-left: 260px;
     text-align: center;
+    cursor: pointer;
 }
 .bootom_link{
 	margin: 35px 0 50px 220px;

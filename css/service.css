@@ -1,0 +1,254 @@
+@import "base.css";
+header{
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    z-index: 9999;
+    height: 67px;
+}
+.header{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header h2{
+    float: left;
+    margin-top: 15px;
+    display: inline;
+}
+.header ul{
+    float: right;
+    margin-top: 20px;
+    display: inline;
+}
+.header ul li{
+    float: left;
+    font-size: 16px;
+    margin-right: 50px;
+    display: inline;
+}
+.header ul li a{
+    color: #555;
+    text-decoration: none;
+}
+.header ul li a:hover{
+    color: #f20039;
+}
+.header ul li a.red{
+    color: #f20039;
+}
+.bottom{
+    padding: 100px 0;
+    height: auto;
+    overflow: hidden;
+    background: #f6f6f6;
+}
+.bottom .title{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 35px;
+}
+.bottom .title h3{
+    font-size: 28px;
+    color: #e20040;
+}
+.bottom .title span{
+    font-size: 16px;
+    color: #888;
+    line-height: 28px;
+}
+.bottom .title p{
+    line-height: 28px;
+    font-size: 14px;
+}
+.bottom ul{
+    width: 92%;
+    padding: 0 4%;
+}
+.service-list ul li a:hover {
+    background: #f83461;
+    color: #fff;
+}
+.service-list ul li a:hover span {
+    color: #fff;
+}
+.bottom ul li{
+    float: left;
+    width: 48%;
+    background: #fff;
+    overflow: hidden;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.bottom ul li a{
+    display: block;
+    height: auto;
+    overflow: hidden;
+    padding-top: 12%;
+    min-height: 300px;
+    color: #555;
+}
+.bottom ul li a .ds-icon{
+    background: url(../img/fuwu-icon1.png) no-repeat;
+    width: 52px;
+    height: 43px;
+    display: block;
+    text-align: center;
+    margin-left: 45%;
+    margin-bottom: 10px;
+}
+.ul-icon {
+    background: url(../img/fuwu-icon2.png) no-repeat;
+    width: 26px;
+    height: 44px;
+    display: block;
+    text-align: center;
+    margin-left: 47%;
+    margin-bottom: 10px;
+}
+.vi-icon {
+    background: url(../img/fuwu-icon4.png) no-repeat;
+    width: 42px;
+    height: 38px;
+    display: block;
+    text-align: center;
+    margin-left: 47%;
+    margin-bottom: 10px;
+}
+.interface-icon {
+    background: url(../img/fuwu-icon3.png) no-repeat;
+    width: 49px;
+    height: 42px;
+    display: block;
+    text-align: center;
+    margin-left: 47%;
+    margin-bottom: 10px;
+}
+.ds-txt {
+    text-align: center;
+    line-height: 22px;
+    padding: 10px 0;
+}
+.cp-list {
+    text-align: center;
+    line-height: 28px;
+    font-size: 14px;
+    width: 420px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.cp-list p {
+    float: left;
+    font-size: 14px;
+    margin-right: 55px;
+}
+.bottom ul li h3{
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.bottom ul li p.solid{
+    border-bottom: solid 2px #d3d3d3;
+    width: 50px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+.bottom ul li span{
+    font-size: 12px;
+    color: #888;
+    text-align: center;
+}
+.bottom ul li span a.ds{
+    background: url(../img/computer-01.png) no-repeat center top;
+}
+.bottom ul li span a.sj{
+    background: url(../img/iphone-1.png) no-repeat center top;
+}
+.bottom ul li span a.rj{
+    background: url(../img/index-icon1.png) no-repeat center top;
+}
+.bottom ul li span a.pinpai{
+    background: url(../img/index-icon3.png) no-repeat center top;
+}
+.bottom ul li span a.wb{
+    background: url(../img/index-icon5.png) no-repeat center top;
+}
+.bottom ul li span a.ds:hover{
+    background: url(../img/computer-02.png) no-repeat center top;
+}
+.bottom ul li span a.sj:hover{
+    background: url(../img/iphone-2.png) no-repeat center top;
+}
+.bottom ul li span a.rj:hover{
+    background: url(../img/index-icon2.png) no-repeat center top;
+}
+.bottom ul li span a.pinpai:hover{
+    background: url(../img/index-icon4.png) no-repeat center top;
+}
+.bottom ul li span a.wb:hover {
+    background: url(../img/index-icon6.png) no-repeat center top;
+}
+footer{
+    width: 100%;
+    padding: 30px 0;
+    height: auto;
+    overflow: hidden;
+}
+footer .footer-1200{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+footer .footer-1200 .footer-jt{
+    background: url(../img/bottom-jt1.png) no-repeat center top;
+    width: 57px;
+    height: 29px;
+    display: block;
+    margin-left: 260px;
+    text-align: center;
+}
+footer .footer-1200 .footer-link{
+    margin: 35px 0 50px 220px;
+    padding-bottom: 15px;
+}
+footer .footer-1200 .footer-link ul{
+    width: auto;
+    height: 21px;
+    margin-left: 12px;
+}
+footer .footer-1200 .footer-link ul li{
+    float: left;
+    margin-right: 20px;
+    display: inline;
+    text-align: center;
+}
+footer .footer-1200 .footer-link ul li a.wb{
+    background: url(../img/sina-icon1.png) no-repeat;
+    width: 25px;
+    height: 21px;
+    display: block;
+}
+footer .footer-1200 .footer-link ul li a.wx{
+    background: url(../img/weixin-icon1.png) no-repeat;
+    width: 26px;
+    height: 21px;
+    display: block;
+}
+footer .footer-1200 .footer-link ul li a.qq{
+    background: url(../img/qq-icon1.png) no-repeat;
+    width: 25px;
+    height: 21px;
+    display: block;
+}
+footer .footer-1200 .footer-link ul li a.wb:hover{
+    background: url(../img/sina-icon2.png) no-repeat;
+}
+footer .footer-1200 .footer-link ul li a.wx:hover{
+    background: url(../img/weixin-icon2.png) no-repeat;
+}
+footer .footer-1200 .footer-link ul li a.qq:hover {
+    background: url(../img/qq-icon2.png) no-repeat;
+}
